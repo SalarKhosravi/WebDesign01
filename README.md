@@ -1,7 +1,7 @@
 # About this Repo
 This is a repo for those who just start to learn Web Design
 
-For each session there is a file, go from top to button and uncomment line by line to see results
+For each session there is a file, copy file content in your vscode and html file, then open it by browser like Chrome
 
 <br><br>
 ## Follow Rulls:
