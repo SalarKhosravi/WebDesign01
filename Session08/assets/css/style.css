@@ -1,0 +1,137 @@
+body {
+
+    background-color: lightblue;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+
+p{
+    color: #ff0000;
+    text-align: center;
+}
+
+
+/* element Selector */
+h1 {}
+
+/* id Selector */
+#myText {}
+
+/* class Selector */
+.myText {}
+
+
+/* combine selector: element.class */
+p.prim {}
+
+
+/* Universal Selector */
+* {}
+
+/* Grouping Selector */
+h1, h2, p {} /* comment by double */
+
+
+div {
+    background-color: red;
+    opacity: 0.3;
+
+
+    background-image: url("paper.gif");
+    background-repeat: repeat-x;            /* repeat-x, repeat-y, no-repeat */
+    background-position: right top;
+    
+    background-attachment: fixed;           /* fixed, scroll */
+
+    background: #ffffff url("img_tree.png") no-repeat right top;
+}
+
+
+
+div {
+    border-style: solid solid dotted dotted;
+    border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+    border-color: green;
+    
+    border: 6px solid red;
+    border-radius: 5px;
+}
+
+
+div {
+    margin: 25px 50px 75px 100px;
+    margin-top: 20px;
+
+    padding-top: 50px;
+    padding: 25px 50px 75px 100px;
+}
+
+
+p{
+    text-align-last: right;
+    vertical-align: baseline;
+
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+    text-decoration: overline underline red double 5px;
+    text-decoration: none;
+
+    
+    text-transform: uppercase;          /* uppercase, lowercase, capitalize */
+
+
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 0.8;
+    word-spacing: 10px;
+    white-space: nowrap;
+
+    text-shadow: 2px 2px 5px red;
+
+    font-family: "Times New Roman", Times, serif;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Tahoma, Verdana, sans-serif;
+
+    font-style: italic;
+    font-variant: small-caps;
+
+
+    font-size: 40px;
+    font-size: 2.5em; /* 40px = 16 * 2.5em */
+    font-size: 0.875em; /* 14px = 16* 0.875em */
+    font-size:10vw;
+
+
+    /* The font property is a shorthand property for:
+        font-style
+        font-variant
+        font-weight
+        font-size/line-height
+        font-family */
+    
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
+
+
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+  
+
+@font-face {
+font-family: myFirstFont;
+src: url(sansation_bold.woff);
+font-weight: bold;
+}
+
+
+div {
+    font-family: myFirstFont;
+}
